@@ -1,0 +1,122 @@
+
+/* Загальні стилі */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4b0082;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header .logo {
+  height: 80px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #f0f8ff;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Секція вступу */
+.intro {
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 36px;
+  color: #8a2be2;
+}
+
+.intro-img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Секція карти */
+.map {
+  background-color: #dcdcdc;
+  padding: 20px;
+}
+
+.map-img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.map h2 {
+  text-align: center;
+}
+
+/* Пригоди */
+.adventures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.adventure {
+  width: 45%;
+  background-color: #e6e6fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.adventure h3 {
+  color: #4b0082;
+}
+
+.adventure-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Міфи */
+.myths {
+  margin-top: 30px;
+}
+
+.myth {
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.myth h3 {
+  color: #4b0082;
+}
+
+.myth-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #4b0082;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
